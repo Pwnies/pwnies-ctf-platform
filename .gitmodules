@@ -1,0 +1,3 @@
+[submodule "CTFd"]
+	path = CTFd
+	url = git@github.com:Pwnies/CTFd.git
