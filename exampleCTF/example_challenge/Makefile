@@ -2,7 +2,7 @@
 include ../ports.mk
 
 # Files that should be included in handout.tar.gz
-HANDOUT=INTRO.md
+HANDOUT=INTRO.md example
 
 # Arguments to docker run
 DOCKER_ARGS=-p $(PORT_EXAMPLE):1337
