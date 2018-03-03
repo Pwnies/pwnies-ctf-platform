@@ -8,10 +8,10 @@ HANDOUT=INTRO.md example
 DOCKER_ARGS=-p $(PORT_EXAMPLE):1337
 
 # Docker image name
-DOCKER_NAME=example
+DOCKER_NAME=example-challenge
 
 # Files to be included in the Docker image
-DOCKER_DEPS=run example
+DOCKER_DEPS=run
 
 # Must be included at the bottom
 include ../build.mk

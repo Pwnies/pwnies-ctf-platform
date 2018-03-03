@@ -27,4 +27,4 @@ COPY flag .
 RUN chmod 555 run example
 
 EXPOSE $PORT
-ENTRYPOINT ["./run", "./example"]
+CMD ["./run", "./example"]

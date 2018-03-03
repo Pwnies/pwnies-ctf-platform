@@ -18,4 +18,10 @@ docker-stop: .dockerid
 
 handout: handout.tar.xz
 
+# Remove builtin rules
+.SUFFIXES:
+
+.DEFAULT: docker-build
+	docker run $(DOCKER_NAME) cat $@ > $@
+
 .PHONY: docker-stop docker-start docker-build
